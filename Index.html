@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Zone Distance Tool</title>
+
+  <!-- External Libraries -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>🎬 Studio Zone Distance Calculator</h2>
+
+    <div class="input-group">
+      <input type="text" id="address" placeholder="Enter delivery location (e.g., 7080 Hollywood Blvd)" />
+    </div>
+
+    <div id="resultCard" class="card"></div>
+    <div id="mapCard" class="card"><div id="map"></div></div>
+    <div id="stepsCard" class="card"></div>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
